@@ -1,12 +1,37 @@
-# React + Vite
+# Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Admin Dashboard** built with **React**, **Tailwind CSS**, and **PWA** features. This dashboard includes a customizable theme (dark, light, blue), real-time charts, and a user-friendly interface for managing and visualizing data. This app is designed with the flexibility to be used in various real-world applications.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Themes**: Toggle between Dark, Light, and Blue themes
+- **Charts**:
+  - Line Chart: Displays sales data over time
+  - Bar Chart: Shows user activity
+- **Responsive Design**: Fully responsive across devices (mobile, tablet, desktop)
+- **Progressive Web App (PWA)**: Supports offline mode and "Add to Home Screen" functionality
+- **Mock Data**: Local state used for chart data and visual elements during development
+- **Service Worker**: Automatically caches assets for offline use
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, Tailwind CSS
+- **PWA**: Service Worker, Web App Manifest
+- **Charts**: Chart.js (for rendering line and bar charts)
+- **State Management**: React Context API (for theme state and PWA service)
+- **Design**: Tailwind CSS for utility-first styling and custom themes
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (or yarn)
+
+### Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/letswriteaprogram/admin-dashboard.git
+   cd admin-dashboard
